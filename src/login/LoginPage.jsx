@@ -88,7 +88,6 @@ const LoginPage = () => {
   const [showServerTooltip, setShowServerTooltip] = useState(false);
   const [showQr, setShowQr] = useState(false);
 
-  const registrationEnabled = useSelector((state) => state.session.server.registration);
   const languageEnabled = useSelector((state) => {
     const attributes = state.session.server.attributes;
     return !attributes.language && !attributes['ui.disableLoginLanguage'];
@@ -254,16 +253,16 @@ const LoginPage = () => {
         )}
         {!openIdForced && (
           <div className={classes.extraContainer}>
-            {registrationEnabled && (
-              <Link
-                onClick={() => navigate('/register')}
-                className={classes.link}
-                underline="none"
-                variant="caption"
-              >
-                {t('loginRegister')}
-              </Link>
-            )}
+            <Link
+              href="https://bluetrack.co.za"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={classes.link}
+              underline="none"
+              variant="caption"
+            >
+              Register Now
+            </Link>
             {emailEnabled && (
               <Link
                 onClick={() => navigate('/reset-password')}

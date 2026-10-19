@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#00707b">
+<title>BlueTrack Device Setup</title>
+<style>
+  :root {
+    --brand: #00707b;
+    --ink: #0f2c59;
+    --muted: #5b6b6e;
+    --surface: #f4f7f8;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 420px;
+    padding: 28px 24px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 12px 40px rgba(15, 44, 89, 0.12);
+    text-align: center;
+  }
+
+  .logo {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    margin: 0 0 8px;
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+
+  p {
+    margin: 0 0 16px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .device-id {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #e6f1f2;
+    color: var(--brand);
+    font-weight: 600;
+    word-break: break-all;
+  }
+
+  .button {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    padding: 14px 16px;
+    border: 0;
+    border-radius: 10px;
+    background: var(--brand);
+    color: #fff;
+    font: inherit;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .button.secondary {
+    background: #e6f1f2;
+    color: var(--brand);
+  }
+
+  .note {
+    margin: 20px 0 0;
+    font-size: 0.875rem;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  @media (min-width: 600px) {
+    .card {
+      padding: 36px 32px;
+    }
+  }
+</style>
+</head>
+<body>
+<main class="card">
+  <img class="logo" src="logo.svg" alt="BlueTrack">
+  <h1>Set up your BlueTrack device</h1>
+  <p id="intro">Install the BlueTrack app, then use Auto Configure to connect this device.</p>
+  <p id="deviceId" class="device-id hidden"></p>
+  <a id="androidButton" class="button hidden" href="https://play.google.com/store/apps/details?id=co.za.bluetrack.client">Get it on Google Play</a>
+  <a id="iosButton" class="button hidden" href="#">Download on the App Store</a>
+  <button id="configureButton" class="button secondary hidden" type="button">Auto Configure</button>
+  <p id="missingNote" class="note hidden">No device ID was provided. Scan the invite QR code from your BlueTrack device list.</p>
+  <p id="iosNote" class="note hidden">The BlueTrack iOS app is not available yet.</p>
+  <p id="desktopNote" class="note hidden">Open this page on your phone to install the app. If the app is already installed, use Auto Configure.</p>
+</main>
+<script>
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var id = params.get('id');
+    var osmAndUrl = 'http://' + window.location.hostname + ':5055';
+    var payload = id
+      ? 'org.traccar.client://?url=' + encodeURIComponent(osmAndUrl) + '&id=' + encodeURIComponent(id)
+      : '';
+    var androidUrl = 'https://play.google.com/store/apps/details?id=co.za.bluetrack.client';
+    var iosAppUrl = '';
+    var userAgent = navigator.userAgent || '';
+    var isAndroid = /Android/i.test(userAgent);
+    var isIOS = /iPad|iPhone|iPod/.test(userAgent) ||
+      (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+    var deviceId = document.getElementById('deviceId');
+    var missingNote = document.getElementById('missingNote');
+    var configureButton = document.getElementById('configureButton');
+    var androidButton = document.getElementById('androidButton');
+    var iosButton = document.getElementById('iosButton');
+    var iosNote = document.getElementById('iosNote');
+    var desktopNote = document.getElementById('desktopNote');
+
+    if (id) {
+      deviceId.textContent = id;
+      deviceId.classList.remove('hidden');
+      configureButton.classList.remove('hidden');
+    } else {
+      missingNote.classList.remove('hidden');
+    }
+
+    androidButton.href = androidUrl;
+
+    if (isAndroid) {
+      androidButton.classList.remove('hidden');
+    } else if (isIOS) {
+      if (iosAppUrl) {
+        iosButton.href = iosAppUrl;
+        iosButton.classList.remove('hidden');
+      } else {
+        iosNote.classList.remove('hidden');
+      }
+    } else {
+      desktopNote.classList.remove('hidden');
+      androidButton.classList.remove('hidden');
+      if (iosAppUrl) {
+        iosButton.href = iosAppUrl;
+        iosButton.classList.remove('hidden');
+      }
+    }
+
+    configureButton.addEventListener('click', function () {
+      window.location.href = payload;
+    });
+  })();
+</script>
+</body>
+</html>

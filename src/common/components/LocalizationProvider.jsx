@@ -72,7 +72,6 @@ const dayjsLoaders = {
 };
 
 const languages = {
-  af: { country: 'ZA', name: 'Afrikaans' },
   ar: { country: 'AE', name: 'العربية' },
   az: { country: 'AZ', name: 'Azərbaycanca' },
   bg: { country: 'BG', name: 'Български' },
@@ -82,7 +81,7 @@ const languages = {
   de: { country: 'DE', name: 'Deutsch' },
   da: { country: 'DK', name: 'Dansk' },
   el: { country: 'GR', name: 'Ελληνικά' },
-  en: { country: 'US', name: 'English' },
+  en: { country: 'ZA', name: 'English' },
   es: { country: 'ES', name: 'Español' },
   fa: { country: 'IR', name: 'فارسی' },
   fi: { country: 'FI', name: 'Suomi' },
