@@ -63,17 +63,16 @@ const DevicesPage = () => {
   const [inviteDialogOpen, setInviteDialogOpen] = useState(false);
 
   const inviteDevice = items.find((item) => item.id === inviteDeviceId);
-  const osmAndUrl = `http://${window.location.hostname}:5055`;
-  const invitePayload = inviteDevice
-    ? `org.traccar.client://?url=${encodeURIComponent(osmAndUrl)}&id=${encodeURIComponent(inviteDevice.uniqueId)}`
+  const inviteUrl = inviteDevice
+    ? `${window.location.origin}/download.html?id=${encodeURIComponent(inviteDevice.uniqueId)}`
     : '';
 
   const handleCopyInvite = async () => {
     try {
-      await navigator.clipboard.writeText(invitePayload);
+      await navigator.clipboard.writeText(inviteUrl);
     } catch {
       const textarea = document.createElement('textarea');
-      textarea.value = invitePayload;
+      textarea.value = inviteUrl;
       textarea.setAttribute('readonly', '');
       textarea.style.position = 'fixed';
       textarea.style.opacity = '0';
@@ -258,17 +257,17 @@ const DevicesPage = () => {
                   my: 2,
                 }}
               >
-                <QRCode value={invitePayload} size={224} />
+                <QRCode value={inviteUrl} size={224} />
               </Box>
               <Typography variant="caption" color="text.secondary" sx={{ wordBreak: 'break-all' }}>
-                {invitePayload}
+                {inviteUrl}
               </Typography>
             </>
           )}
         </DialogContent>
         <DialogActions>
           <Button onClick={() => setInviteDialogOpen(false)}>{t('sharedCancel')}</Button>
-          <Button onClick={handleCopyInvite} variant="contained" disabled={!invitePayload}>
+          <Button onClick={handleCopyInvite} variant="contained" disabled={!inviteUrl}>
             {t('sharedCopy')}
           </Button>
         </DialogActions>
