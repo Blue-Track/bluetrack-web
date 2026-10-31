@@ -236,6 +236,8 @@
     "devicesAndState": "கருவிகள் மற்றும் அதன் நிலை",
     "deviceSelected": "Selected Device",
     "deviceTitle": "சாதனம்",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "அடையாளங்காட்டி",

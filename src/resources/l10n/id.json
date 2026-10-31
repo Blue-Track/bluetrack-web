@@ -236,6 +236,8 @@
     "devicesAndState": "Perangkat Dan Status",
     "deviceSelected": "Selected Device",
     "deviceTitle": "Semua Perangkat",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "Pengindetifikasi",

@@ -236,6 +236,8 @@
     "devicesAndState": "Пристрої та стан",
     "deviceSelected": "Selected Device",
     "deviceTitle": " Прилади",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "Iдентифікатор",

@@ -236,6 +236,8 @@
     "devicesAndState": "उपकरण एवम स्तिति",
     "deviceSelected": "Selected Device",
     "deviceTitle": "उपकरण",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "पहचानकर्ता",

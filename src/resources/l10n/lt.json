@@ -236,6 +236,8 @@
     "devicesAndState": "Prietaisai ir Statusas",
     "deviceSelected": "Pasirinktas įrenginys",
     "deviceTitle": "Prietaisai",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Įrenginio antraštė",
     "deviceSecondaryInfo": "Įrenginio aprašymas",
     "deviceIdentifier": "Identifikacinis kodas",

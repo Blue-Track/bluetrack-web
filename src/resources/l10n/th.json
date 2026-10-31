@@ -236,6 +236,8 @@
     "devicesAndState": "อุปกรณ์และสถานะ",
     "deviceSelected": "อุปกรณ์ที่เลือก",
     "deviceTitle": "เครื่อง/อุปกรณ์",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "ชื่ออุปกรณ์",
     "deviceSecondaryInfo": "รายละเอียดอุปกรณ์",
     "deviceIdentifier": "ระบุเลขอุปกรณ์",

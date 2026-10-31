@@ -236,6 +236,8 @@
     "devicesAndState": "Қурилмалар ва Ҳолатлар",
     "deviceSelected": "Selected Device",
     "deviceTitle": "Қурилмалар",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "Идентификатор",

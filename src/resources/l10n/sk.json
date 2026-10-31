@@ -236,6 +236,8 @@
     "devicesAndState": "Zariadenia a Status",
     "deviceSelected": "Vybrané zariadenie",
     "deviceTitle": "Zariadenia",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Názov zariadenia",
     "deviceSecondaryInfo": "Detaily zariadenia",
     "deviceIdentifier": "Identifikátor",

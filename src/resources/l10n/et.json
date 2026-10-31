@@ -236,6 +236,8 @@
     "devicesAndState": "Seadmed ja olek",
     "deviceSelected": "Valitud seade",
     "deviceTitle": "Seadmed",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Seadme nimetus",
     "deviceSecondaryInfo": "Seadme detail",
     "deviceIdentifier": "Identifikaator",

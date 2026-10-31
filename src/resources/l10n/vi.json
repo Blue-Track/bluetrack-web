@@ -236,6 +236,8 @@
     "devicesAndState": "Các thiết bị và trạng thái",
     "deviceSelected": "Selected Device",
     "deviceTitle": "Các thiết bị",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "Định danh",

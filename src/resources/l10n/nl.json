@@ -236,6 +236,8 @@
     "devicesAndState": "Apparaten en status",
     "deviceSelected": "Geselecteerd apparaat",
     "deviceTitle": "Apparaten",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Apparaattitel",
     "deviceSecondaryInfo": "Apparaatdetail",
     "deviceIdentifier": "Identifier",

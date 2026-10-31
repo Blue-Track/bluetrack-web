@@ -236,6 +236,8 @@
     "devicesAndState": "Toestelle en staat",
     "deviceSelected": "Selected Device",
     "deviceTitle": "Toestelle",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "Identifiseerder",

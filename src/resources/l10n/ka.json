@@ -236,6 +236,8 @@
     "devicesAndState": "მოწყობილობები და სტატუსი",
     "deviceSelected": "არჩეული მოწყობილობები",
     "deviceTitle": "მოწყობილობები",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "მოწყობილობის დასახელება",
     "deviceSecondaryInfo": "მოწყობილობის დეტალები",
     "deviceIdentifier": "იდენტიფიკატორი",

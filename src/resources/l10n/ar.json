@@ -236,6 +236,8 @@
     "devicesAndState": "الأجهزة والحالة",
     "deviceSelected": "الجهاز المحدد",
     "deviceTitle": "الأجهزة",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "عنوان الجهاز",
     "deviceSecondaryInfo": "تفاصيل الجهاز",
     "deviceIdentifier": "المعرف",

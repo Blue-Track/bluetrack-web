@@ -236,6 +236,8 @@
     "devicesAndState": "מכשירים וסטטוס",
     "deviceSelected": "התקן שנבחר",
     "deviceTitle": "מכשירים",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "שם המכשיר",
     "deviceSecondaryInfo": "פרטי המכשיר",
     "deviceIdentifier": "מזהה",

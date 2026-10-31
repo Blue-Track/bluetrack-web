@@ -236,6 +236,8 @@
     "devicesAndState": "Peranti dan State",
     "deviceSelected": "Selected Device",
     "deviceTitle": "Peranti",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "IMEI/ID",

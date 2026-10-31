@@ -236,6 +236,8 @@
     "devicesAndState": "设备和状态",
     "deviceSelected": "已选设备",
     "deviceTitle": "设备",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "设备名称",
     "deviceSecondaryInfo": "设备详情",
     "deviceIdentifier": "标识符",

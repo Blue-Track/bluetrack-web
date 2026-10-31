@@ -236,6 +236,8 @@
     "devicesAndState": "デバイスと状態",
     "deviceSelected": "選択したデバイス",
     "deviceTitle": "デバイス",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "デバイスのタイトル",
     "deviceSecondaryInfo": "デバイスの詳細",
     "deviceIdentifier": "ID",

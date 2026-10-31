@@ -236,6 +236,8 @@
     "devicesAndState": "دستگاه ها و وضعیت",
     "deviceSelected": "دستگاه انتخاب شده",
     "deviceTitle": "دستگاه ها",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "عنوان دستگاه",
     "deviceSecondaryInfo": "جزئیات دستگاه",
     "deviceIdentifier": "سريال دستگاه",

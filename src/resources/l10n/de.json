@@ -236,6 +236,8 @@
     "devicesAndState": "Geräte und Status",
     "deviceSelected": "Ausgewähltes Gerät",
     "deviceTitle": "Geräte",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Gerät Titel",
     "deviceSecondaryInfo": "Gerät Detail",
     "deviceIdentifier": "Kennung",

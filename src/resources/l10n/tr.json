@@ -236,6 +236,8 @@
     "devicesAndState": "Cihazlar ve bölge",
     "deviceSelected": "Seçilen cihaz",
     "deviceTitle": "Cihazlar",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Cihaz başlığı",
     "deviceSecondaryInfo": "Cihaz detayı",
     "deviceIdentifier": "Kimlik",

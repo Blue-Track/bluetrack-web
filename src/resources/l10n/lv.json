@@ -236,6 +236,8 @@
     "devicesAndState": "Ierīces un to statusi",
     "deviceSelected": "Atlasītā ierīce",
     "deviceTitle": "Ierīces",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Ierīces nosaukums",
     "deviceSecondaryInfo": "Ierīces informācija",
     "deviceIdentifier": "Identifikators",

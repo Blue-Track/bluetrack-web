@@ -236,6 +236,8 @@
     "devicesAndState": "Naprava in stanje",
     "deviceSelected": "Izbrana naprava",
     "deviceTitle": "Naprave",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Naslov naprave",
     "deviceSecondaryInfo": "Podrobnosti naprave",
     "deviceIdentifier": "Identifikacija",

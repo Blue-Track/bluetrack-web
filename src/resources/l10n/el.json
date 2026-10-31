@@ -236,6 +236,8 @@
     "devicesAndState": "Κατάσταση συσκευών",
     "deviceSelected": "Επιλεγμένη συσκευή",
     "deviceTitle": "Συσκευές",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Τίτλος συσκευής",
     "deviceSecondaryInfo": "Λεπτομέρεια συσκευής",
     "deviceIdentifier": "Αναγνωριστικό",

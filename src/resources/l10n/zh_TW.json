@@ -236,6 +236,8 @@
     "devicesAndState": "設備與狀態",
     "deviceSelected": "已選定的設備",
     "deviceTitle": "設備",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "設備標題",
     "deviceSecondaryInfo": "設備詳情",
     "deviceIdentifier": "識別號碼",

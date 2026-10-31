@@ -236,6 +236,8 @@
     "devicesAndState": "Уреди и статус",
     "deviceSelected": "Избран уред",
     "deviceTitle": "Уреди",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Назив на уред",
     "deviceSecondaryInfo": "Детали за уред",
     "deviceIdentifier": "Идентификатор",

@@ -236,6 +236,8 @@
     "devicesAndState": "Gjendja e pajisjeve",
     "deviceSelected": "Selected Device",
     "deviceTitle": "Pajisjet",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "Identifikues",

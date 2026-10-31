@@ -236,6 +236,8 @@
     "devicesAndState": "Dispozitive și Stare",
     "deviceSelected": "Dispozitiv Selectat",
     "deviceTitle": "Dispozitive",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Titlu Dispozitiv",
     "deviceSecondaryInfo": "Detaliu Dispozitiv",
     "deviceIdentifier": "Identificator",

@@ -236,6 +236,8 @@
     "devicesAndState": "Laitteet ja Tilat",
     "deviceSelected": "Valitse laite",
     "deviceTitle": "Laitteet",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Laitteen nimi",
     "deviceSecondaryInfo": "Laitteen tiedot",
     "deviceIdentifier": "Tunniste",

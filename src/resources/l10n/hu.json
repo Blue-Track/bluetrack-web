@@ -236,6 +236,8 @@
     "devicesAndState": "Eszközök és állapotuk",
     "deviceSelected": "Selected Device",
     "deviceTitle": "Eszközök",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "Azonosító",

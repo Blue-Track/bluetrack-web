@@ -236,6 +236,8 @@
     "devicesAndState": "Enhet och tillstånd",
     "deviceSelected": "Vald enhet",
     "deviceTitle": "Enhet",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Enhetens titel",
     "deviceSecondaryInfo": "Enhetsdetalj",
     "deviceIdentifier": "Identifierare",

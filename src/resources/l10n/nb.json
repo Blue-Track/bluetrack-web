@@ -236,6 +236,8 @@
     "devicesAndState": "Enheter og status",
     "deviceSelected": "Selected Device",
     "deviceTitle": "Enheter",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "Identifikator",

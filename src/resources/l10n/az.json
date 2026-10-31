@@ -236,6 +236,8 @@
     "devicesAndState": "Cihaz və vəziyyəti",
     "deviceSelected": "Selected Device",
     "deviceTitle": "Cihaz",
+    "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "İdentifikator",
