@@ -11,6 +11,7 @@ import {
   Button,
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import FileInput from '../common/components/FileInput';
 import EditItemView from './components/EditItemView';
 import EditAttributesAccordion from './components/EditAttributesAccordion';
@@ -24,6 +25,7 @@ import useCommonDeviceAttributes from '../common/attributes/useCommonDeviceAttri
 import { useCatch } from '../reactHelper';
 import useSettingsStyles from './common/useSettingsStyles';
 import QrCodeDialog from '../common/components/QrCodeDialog';
+import DeviceInviteDialog from '../common/components/DeviceInviteDialog';
 import fetchOrThrow from '../common/util/fetchOrThrow';
 
 const DevicePage = () => {
@@ -40,6 +42,7 @@ const DevicePage = () => {
 
   const [item, setItem] = useState(uniqueId ? { uniqueId } : null);
   const [showQr, setShowQr] = useState(false);
+  const [showInvite, setShowInvite] = useState(false);
   const [imageFile, setImageFile] = useState(null);
 
   const handleFileInput = useCatch(async (newFile) => {
@@ -87,6 +90,16 @@ const DevicePage = () => {
                 helperText={t('deviceIdentifierHelp')}
                 disabled={Boolean(uniqueId)}
               />
+              <Button
+                variant="outlined"
+                color="primary"
+                startIcon={<PersonAddIcon />}
+                onClick={() => setShowInvite(true)}
+                disabled={!item.uniqueId}
+                fullWidth
+              >
+                {t('deviceInviteAction')}
+              </Button>
             </AccordionDetails>
           </Accordion>
           <Accordion>
@@ -181,6 +194,7 @@ const DevicePage = () => {
         </>
       )}
       <QrCodeDialog open={showQr} onClose={() => setShowQr(false)} />
+      <DeviceInviteDialog open={showInvite} onClose={() => setShowInvite(false)} device={item} />
     </EditItemView>
   );
 };

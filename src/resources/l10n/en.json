@@ -237,6 +237,7 @@
     "deviceSelected": "Selected Device",
     "deviceTitle": "Devices",
     "deviceInvite": "Invite",
+    "deviceInviteAction": "Invite Device",
     "devicePrimaryInfo": "Device Title",
     "deviceSecondaryInfo": "Device Detail",
     "deviceIdentifier": "Identifier",
